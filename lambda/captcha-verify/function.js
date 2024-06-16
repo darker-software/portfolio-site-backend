@@ -1,6 +1,5 @@
 require("dotenv").config();
 const axios = require("axios");
-const { CaptchaHeaderKey } = require("../src/lib/constants");
 const AWSXRay = require("aws-xray-sdk");
 const AWS = AWSXRay.captureAWS(require("aws-sdk"));
 
